@@ -74,8 +74,8 @@ export function TransactionSection() {
                 <DialogContent className="sm:max-w-[425px]">
                   <DialogHeader>
                     <Image className="w-[144px] absolute left-[116px] bottom-[367px]" alt="pineapple image" src={Pineapple} />
-                    <Typography variant="t1">Mohon cek kembali order kamu</Typography>
-                    <Typography variant="st1">No Order: PI213123123DHEX</Typography>
+                    <Typography variant="t1" className="text-center">Mohon cek kembali order kamu</Typography>
+                    <Typography variant="st1" className="text-center">No Order: PI213123123DHEX</Typography>
                     <Separator />
                     <DialogDescription className='flex flex-col gap-2'>
                       <div className="flex justify-between">
