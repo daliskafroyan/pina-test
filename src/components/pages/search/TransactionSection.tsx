@@ -3,13 +3,13 @@ import { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { HiMinus, HiPlus } from "react-icons/hi";
 
-import Button from "@/components/buttons/Button";
-import IconButton from "@/components/buttons/IconButton";
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTrigger } from "@/components/dialog/Dialog";
-import Input from "@/components/forms/Input";
-import { Separator } from "@/components/separator/Separator";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs/TransactionTabs";
-import Typography from "@/components/typography/Typography";
+import Button from "@/components/common/buttons/Button";
+import IconButton from "@/components/common/buttons/IconButton";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTrigger } from "@/components/common/dialog/Dialog";
+import Input from "@/components/common/forms/Input";
+import { Separator } from "@/components/common/separator/Separator";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/common/tabs/TransactionTabs";
+import Typography from "@/components/common/typography/Typography";
 
 import Pineapple from '~/svg/Pineapple.png'
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { RiAlarmWarningFill } from 'react-icons/ri';
 
-import ArrowLink from '@/components/links/ArrowLink';
+import ArrowLink from '@/components/common/links/ArrowLink';
 
 export default function NotFoundPage() {
   return (

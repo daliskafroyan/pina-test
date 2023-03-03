@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import { Separator } from '@/components/separator/Separator';
+import { Separator } from '@/components/common/separator/Separator';
 import Typography from '@/components/typography/Typography';
 
 import FileIcon from '~/svg/File.svg'

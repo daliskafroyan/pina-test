@@ -3,8 +3,8 @@ import { FormProvider, useForm } from 'react-hook-form';
 
 import logger from '@/lib/logger';
 
-import Input from '@/components/forms/Input';
-import Typography from '@/components/typography/Typography';
+import Input from '@/components/common/forms/Input';
+import Typography from '@/components/common/typography/Typography';
 
 import Avatar from '~/svg/Avatar.svg'
 import MailIcon from '~/svg/Mail.svg'
@@ -25,7 +25,7 @@ export default function Header() {
       <div className="w-[380px]">
         <FormProvider {...methods}>
           <form onSubmit={(res) => logger(res)}>
-            <Input label={null} id='search' rightNode={<SearchIcon />} placeholder='Ketik nama atau simbol saham' hideError />
+            <Input label={null} filled id='search' rightNode={<SearchIcon />} placeholder='Ketik nama atau simbol saham' hideError />
           </form>
         </FormProvider>
       </div>

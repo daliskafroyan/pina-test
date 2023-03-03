@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
 
-import { Chip } from "@/components/chips/Chip";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs/FaintTabs";
-import Typography from "@/components/typography/Typography";
+import { Chip } from "@/components/common/chips/Chip";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/common/tabs/FaintTabs";
+import Typography from "@/components/common/typography/Typography";
 
 import BlueChipLogo from '~/svg/BlueChip.svg'
 import EnergyLogo from '~/svg/Energy.svg'

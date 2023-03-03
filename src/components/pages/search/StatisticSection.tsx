@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs/Tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/common/tabs/Tabs"
 import Typography from "@/components/typography/Typography"
 
 export interface StatisticSectionProps {

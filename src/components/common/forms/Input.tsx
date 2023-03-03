@@ -4,7 +4,7 @@ import * as React from 'react';
 import { RegisterOptions, useFormContext } from 'react-hook-form';
 import { IconType } from 'react-icons';
 
-import Typography from '@/components/typography/Typography';
+import Typography from '@/components/common/typography/Typography';
 
 export type InputProps = {
   /** Input label */
@@ -29,6 +29,7 @@ export type InputProps = {
   hideError?: boolean;
   /** Manual validation using RHF, it is encouraged to use yup resolver instead */
   validation?: RegisterOptions;
+  filled?: boolean;
   leftIcon?: IconType | string;
   rightNode?: React.ReactNode;
   leftNode?: React.ReactNode;
@@ -45,6 +46,7 @@ export default function Input({
   disabled,
   readOnly = false,
   hideError = false,
+  filled = false,
   validation,
   leftIcon: LeftIcon,
   leftNode,
@@ -98,6 +100,7 @@ export default function Input({
             'border-gray-300 focus:border-primary-200 focus:ring-primary-200',
             (readOnly || disabled) &&
             'cursor-not-allowed border-gray-300 bg-gray-100 focus:border-gray-300 focus:ring-0',
+            filled && 'border-gray-100 bg-gray-100 focus:border-gray-300 focus:ring-0',
             error && 'border-red-500 focus:border-red-500 focus:ring-red-500',
             LeftIcon && 'pl-10',
             rightNode && 'pr-10',
