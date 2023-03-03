@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import * as React from 'react';
 
+import { Separator } from '@/components/common/separator/Separator';
+import Typography from '@/components/common/typography/Typography';
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import { Separator } from '@/components/common/separator/Separator';
-import Typography from '@/components/typography/Typography';
 
 import FileIcon from '~/svg/File.svg'
 import HomeIcon from '~/svg/Home.svg'

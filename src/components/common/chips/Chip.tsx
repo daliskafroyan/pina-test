@@ -1,4 +1,4 @@
-import Typography from "@/components/typography/Typography";
+import Typography from "@/components/common/typography/Typography";
 
 interface ChipProps {
   icon: React.ReactNode

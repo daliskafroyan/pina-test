@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/common/tabs/Tabs"
-import Typography from "@/components/typography/Typography"
+import Typography from "@/components/common/typography/Typography"
 
 export interface StatisticSectionProps {
   data: {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Typography from '@/components/typography/Typography';
+import Typography from '@/components/common/typography/Typography';
 
 import IDClearLogo from '~/svg/IDClear.svg'
 import IDXLogo from '~/svg/IDX.svg'
